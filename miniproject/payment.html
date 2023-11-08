@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>payment</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <meta charset="utf-8"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="css/payment.css">
+        
+    </head>
+    <body>
+        <section id=header>
+            <a href="#"><img src="images/images/logo.png" alt="image" class="logo" height="80px" width="80px">
+                <div>
+                    <ul id="navbar">
+                        <li><a href="./e.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Your cart<i class="bi bi-cart"></i></a></li>
+                    </ul>
+                </div>
+        </section>
+        <section id="Payment" class="main_div">
+            <div class="payment">
+              <div class="header">Payment Method</div>
+              <div class="credit_card">
+                <div class="check"><input type="radio" name="check" /> Credit Card</div>
+                <div class="top_row">
+                  <input class="number" type="text" placeholder="card Number" />
+                  <input class="exp" type="text" placeholder="MM/YY" />
+                  <input class="cvv" type="text" placeholder="CVV" />
+                </div>
+                <div class="bottom_row">
+                  <input type="text" placeholder="Card Holder Name" />
+                </div>
+              </div>
+              <hr />
+              <div class="paypal">
+                <div class="check">
+                  <input name="check" type="radio" />
+                <div class="text">PAYPAL<br>
+                Pay using paypal and get instant 10% of on next purchase
+                </div>
+              </div>
+                <div class="logo">
+                  <i class="fa-brands fa-cc-paypal"></i>
+                </div>
+              </div>
+              <hr>
+              <button class="button pay">Pay Now</button>
+              <button class="button cancel">Cancel</button>
+            </div>
+            <div class="summary">
+              <div class="heading">Summary</div>
+              <div class="products">
+                <div class="product">
+                  <div class="img">
+                    <img src="images/images/p1.webp" alt="" src="">
+                  </div>
+                  <div class="des">
+                    <div class="head">Product Name</div>
+                    <div class="price">$200</div>
+                  </div>
+                  
+                </div>
+                <div class="product">
+                  <div class="img">
+                    <img src="images/images/p2.webp" alt="" src="">
+                  </div>
+                  <div class="des">
+                    <div class="head">Product Name</div>
+                    <div class="price">$200</div>
+                  </div>
+                  
+                </div>
+              </div>
+              <hr>
+              <div class="vocuher">HAVE A VOCHER</div>
+              <hr>
+              <div class="total">
+                <div class="option subtotal">
+                  <div class="head">SubTotal</div>
+                  <div class="value">$600</div>
+                </div>
+                <div class="option Shipping">
+                  <div class="head">Shipping</div>
+                  <div class="value">Free</div>
+                </div>
+                <div class="option Taxes">
+                  <div class="head">Taxes</div>
+                  <div class="value">$13</div>
+                </div>
+                <hr>
+                <div class="option grand">
+                  <div class="head">Total</div>
+                  <div class="value">$613</div>
+                </div>
+              </div>
+            </div>
+          </section>
+    </body>
+</html>

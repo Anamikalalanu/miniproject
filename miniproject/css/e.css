@@ -1,0 +1,195 @@
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color:aliceblue;
+    position: sticky;
+    top: 0 ;
+    left: 0;
+}
+#navbar{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600px;
+}
+#navbar li a:hover,
+#navbar li a.active{
+color: forestgreen;
+}
+#second{
+    background-image: url("../images/images/e1.jpeg");
+    font-family: cursive;
+    font-weight: 400;
+    
+    height: 70vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top 25% right 50%;
+    background-size: cover;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+#second button{
+    font-weight: 700;
+    font-size: 15px;
+    color: blue;
+    font-family: monospace;
+   
+}
+.box1{
+    padding: 20px 80px;
+    width: 220px;
+    box-shadow: 10px 10px 20px beige;
+    border: 1px,solid lightblue;
+    border-radius: 5px;
+    margin: 15px 0;
+    text-align: center;
+}
+.box1:hover{
+    box-shadow: 10px 10px 40px pink;
+} 
+.box1 h5{
+    padding: 9 8 7 6;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+}
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#product1 h1,h3{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+#product1 .pro{
+    width: 12%;
+    min-width: 100px;
+    padding: 10px 15px;
+    border: 1px solid bisque;
+    margin-left: 2%;
+    border-radius: 25px;
+    box-shadow: 20px 20px 20px whitesmoke;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    
+}
+#product1 .pro:hover{
+    box-shadow: 20px 20px 25px lightgray;  
+    transition: 0.3s ease;
+}
+#product1 img{
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+}
+.main-container{
+display: flex;
+}
+#newsletter{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+     align-items: center;
+     background-color: lightblue;
+     margin-top: 5%;
+     padding-bottom: 3%;
+}
+#end{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#cart{
+    padding-top: 4%;
+   padding-left: 5%;
+   padding-right: 5%;
+}
+#cart table{
+    border-collapse: collapse;
+    table-layout: fixed;
+    color: brown;
+    
+}
+#cart table td:nth-child(1){
+    width: 100%;
+    text-align: center;
+}
+#cart table td:nth-child(2){
+    width: 150%;
+    text-align: center;
+}
+#cart table td:nth-child(3){
+    width: 180%;
+    text-align: center;
+}
+#cart table td:nth-child(4){
+    width: 200%;
+    text-align: center;
+}
+#cart table td:nth-child(5){
+    width: 200%;
+    text-align: center;
+}
+#cart table td:nth-child(4) input{
+    width: 60PX;
+    
+}
+#cart table thead{
+    border: 2px solid bisque;
+    border-left: none;
+    border-right: none;
+
+}
+#cart table thead td{
+ font-weight: 600;
+ font-size: 17px;
+ padding: 12px 0;   
+}
+#cart table tbody td{
+    font-size: 15px;
+    padding-bottom: 3%;
+}
+#cart1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#cart2{
+    width: 14%;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    padding: 25px;
+}
+#cart2 table{
+    border-collapse: collapse;
+    width: 100%;
+}
+#btn{
+    background-color: green;
+    color: white;
+    width: 90px;
+    height: 24px;
+    padding-top : 5px;
+}
+#cart2 table td{ 
+    padding: 8px 0;
+}
+ 
